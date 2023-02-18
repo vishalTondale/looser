@@ -15,4 +15,5 @@ but at the end this project is just a gemeral demo of how the website look like.
 in this project i used the HTML CSS and JAVASCRIPT programming languages. 
 
 
-just revising html css js 
+A gemeral view of a website
+
