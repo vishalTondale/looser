@@ -1,0 +1,195 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-image: url("sea.jpg");
+  background-size: cover;
+}
+.header1 {
+  padding: 20px;
+  text-align: center;
+  background: #ed95d2;
+  color:rgb(19, 18, 18);
+}
+* {
+  box-sizing: border-box;
+}
+.header1 h1 {
+	color:black;
+	text-align:center;
+}
+
+.header1 h2 {
+	color:black;
+	text-align:center;
+}
+
+p {
+	text-align:center;
+}
+
+h2{
+	text-align: center;
+}
+/*
+#div { 
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-image: url(back.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 5% 20% 5% 40%;
+  border-radius: 20px;
+  box-shadow: 8px 8px 9px gray;
+
+}
+
+.header1 {
+  padding: 20px;
+  text-align: center;
+  background: #ed95d2;
+  color:rgb(19, 18, 18);
+}
+* {
+  box-sizing: border-box;
+}
+.header1 h1 {
+	color:black;
+	text-align:center;
+}
+
+.header1 h2 {
+	color:black;
+	text-align:center;
+}
+
+p {
+	text-align:center;
+}
+
+h2{
+	text-align: center;
+}
+
+.container{
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 5% 20% 5% 35%;
+  border-radius: 20px;
+  box-shadow: 8px 8px 9px gray;
+  /*
+	align-content: center;
+    background-color: rgb(17, 169, 207);
+    background-size: cover;
+	position:absolute;
+    top:60%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%)
+}*/
+#div { 
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+ background-color:black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 5% 20% 5% 40%;
+  border-radius: 20px;
+  box-shadow: 8px 8px 9px gray;
+
+}
+#menu{
+  height: 60px;
+  width: 70px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+                          
+}
+::placeholder{
+  color: rgb(113, 114, 116);
+  transition: ease-out;
+}
+
+#L {
+  height: 30px;
+  width: 200px;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3% 20% 3% 30%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.login {
+  text-align: center;
+  height: 30px;
+  width: 30px;
+
+}
+#user{
+  
+  border: none;
+  border-bottom: 2px solid dodgerblue;
+  outline: none;
+  margin: 20px 0px 0px 20px;
+  height: 30px;
+  width: 300px;
+  background: transparent;
+  text-align: center;
+  font-size: large;
+  color:white;
+}
+#password{
+  border: none;
+  border-bottom: 2px solid dodgerblue;
+  outline: none;
+  margin: 20px 0px 0px 20px;
+  height: 30px;
+  width: 300px;
+  background: transparent;
+  text-align: center;
+  font-size: large;
+  color:white;
+}
+#logo{
+  margin-top: 30px;
+  margin-left: 180px;
+  border-radius: 50%;
+}
+#new{
+  margin-top: 30px;
+  margin-left: 60%;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+#pass{
+  margin-top: 30px;
+  margin-left: 60%;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+ 
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 5;
+    width: 100%;
+    /* Height of the footer*/
+    height: 50px;
+    background: grey;
+}
